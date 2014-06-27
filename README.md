@@ -5,21 +5,21 @@ An online Enrollment System plugin for WordPress that enables you to display you
 A User will need to pay via PayPal if the course is premium.
 
 ###### DASHBOAD PREVIEW
-![alt text](https://github.com/darryldecode/SCM-Online-Course-Module/blob/master/resources/img/previews/dashboard.png "Logo Title Text 1")
-![alt text](https://github.com/darryldecode/SCM-Online-Course-Module/blob/master/resources/img/previews/admin_course_manage.png "Logo Title Text 1")
+<img src="https://github.com/darryldecode/SCM-Online-Course-Module/blob/master/resources/img/previews/dashboard.png">
+<img src="https://github.com/darryldecode/SCM-Online-Course-Module/blob/master/resources/img/previews/admin_course_manage.png">
 
 ### FEATURES!
 
-1.) Totally separate user system so you don't have to worry for your users to mess with your admin dashboard
-2.) Supports PayPal Advanced and PayPal Express Payments
-3.) Default Mail or SMTP for mail engine options
-4.) Manager Courses, Students and Payments on your Dashboard
-5.) Uses Twitter Bootstrap as fundamental CSS structure
-6.) Uses Composer to manage Dependencies
+1.) Totally separate user system so you don't have to worry for your users to mess with your admin dashboard<br>
+2.) Supports PayPal Advanced and PayPal Express Payments<br>
+3.) Default Mail or SMTP for mail engine options<br>
+4.) Manager Courses, Students and Payments on your Dashboard<br>
+5.) Uses Twitter Bootstrap as fundamental CSS structure<br>
+6.) Uses Composer to manage Dependencies<br>
 
 ### REQUIREMENTS!
 
-1.) PHP 5.4 and above
+1.) PHP <b>5.4</b> and above
 
 ### Installation Guide
 
@@ -60,3 +60,5 @@ and put shortcode there `[scm]` you must also update the plugin settings > Syste
 STEP 5:
 
 Do several setup on settings page that meets you needs.
+
+NOTE: (!imporant) AT THIS VERY MOMENT, ONLY PAYPAL ADVANCED IS STABLE FOR PAYMENTS.
