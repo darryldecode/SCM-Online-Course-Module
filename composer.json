@@ -1,0 +1,18 @@
+{
+    "require": {
+        "illuminate/database": "*",
+        "curl/curl": "dev-master",
+        "illuminate/validation": "*",
+        "hautelook/phpass": "dev-master",
+        "omnipay/omnipay": "2.0.*@dev",
+        "swiftmailer/swiftmailer": "5.2.*@dev"
+    },
+    "autoload": {
+        "classmap": [
+            "classes",
+            "controller",
+            "model",
+            "services"
+        ]
+    }
+}
