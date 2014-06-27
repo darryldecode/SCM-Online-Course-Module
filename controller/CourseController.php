@@ -20,6 +20,15 @@ use SCM\Model\User;
 class CourseController {
 
     /**
+     * object constructor
+     */
+    public function __construct()
+    {
+        // filter for admin only
+        SCMUtility::addFilterAdminOnly();
+    }
+
+    /**
      * displays courses in admin page
      *
      * @method GET

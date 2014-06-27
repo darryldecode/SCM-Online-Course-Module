@@ -1,5 +1,6 @@
 <?php namespace SCM\Controller;
 
+use SCM\Classes\SCMUtility;
 use SCM\Classes\View;
 use SCM\Model\Course;
 use SCM\Model\Payment;
@@ -14,6 +15,15 @@ use SCM\Model\User;
  */
 
 class MainPageController {
+
+    /**
+     * object constructor
+     */
+    public function __construct()
+    {
+        // filter for admin only
+        SCMUtility::addFilterAdminOnly();
+    }
 
     /**
      * displays main page

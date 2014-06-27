@@ -294,4 +294,17 @@ class SCMUtility {
         return $date->format('g:ia \o\n l jS F Y');
     }
 
+    /**
+     * adds a filter to an executed method to only be proceed if executed in admin context or redirect if not
+     */
+    public static function addFilterAdminOnly()
+    {
+        if( ! is_admin() )
+        {
+            SCMUtility::setFlashMessage('Woops! Looks like something went wrong..If you believe this is a system error, please contact the administrator.','success');
+            SCMUtility::frontRedirectTo('?page=scmCourseModule&state=Front&action=index');
+            return;
+        }
+    }
+
 }

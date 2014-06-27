@@ -14,6 +14,15 @@ use SCM\Classes\SCMUtility;
 class SettingsController {
 
     /**
+     * object constructor
+     */
+    public function __construct()
+    {
+        // filter for admin only
+        SCMUtility::addFilterAdminOnly();
+    }
+
+    /**
      * displays the settings page
      *
      * @method GET

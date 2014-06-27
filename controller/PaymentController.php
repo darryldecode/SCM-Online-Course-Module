@@ -32,6 +32,8 @@ class PaymentController {
      */
     public function index()
     {
+        SCMUtility::addFilterAdminOnly();
+
         $offset = SCMUtility::cleanText( SCMUtility::issetOrAssign($_GET['offset'],0) );
         $limit  = SCMUtility::cleanText( SCMUtility::issetOrAssign($_GET['limit'],15) );
 
@@ -48,6 +50,8 @@ class PaymentController {
      */
     public function show()
     {
+        SCMUtility::addFilterAdminOnly();
+
         $paymentID = SCMUtility::cleanText( SCMUtility::issetOrAssign($_GET['paymentID'],'') );
 
         $payment = Payment::with(array('student','course','data'))->find($paymentID);
@@ -63,6 +67,8 @@ class PaymentController {
      */
     public function delete()
     {
+        SCMUtility::addFilterAdminOnly();
+
         if( ! SCMUtility::requestIsPost())
         {
             View::make('templates/system/error.php',array());
@@ -627,6 +633,8 @@ class PaymentController {
      */
     public function setPaid()
     {
+        SCMUtility::addFilterAdminOnly();
+
         // make sure request is post
         if( ! SCMUtility::requestIsPost())
         {
@@ -656,6 +664,8 @@ class PaymentController {
      */
     public function setUnPaid()
     {
+        SCMUtility::addFilterAdminOnly();
+
         // make sure request is post
         if( ! SCMUtility::requestIsPost())
         {

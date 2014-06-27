@@ -16,6 +16,15 @@ use SCM\Model\User;
 class UsersController {
 
     /**
+     * object constructor
+     */
+    public function __construct()
+    {
+        // filter for admin only
+        SCMUtility::addFilterAdminOnly();
+    }
+
+    /**
      * displays all list of student/users in admin
      *
      * @method GET
