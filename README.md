@@ -26,8 +26,7 @@ A User will need to pay via PayPal if the course is premium.
 ------------------------------------------------------------------
 STEP 1:
 
-Clone this repository: git@github.com:darryldecode/SCM-Online-Course-Module.git
-or download ZIP.
+Clone this repository or download ZIP.
 
 ------------------------------------------------------------------
 STEP 2:
