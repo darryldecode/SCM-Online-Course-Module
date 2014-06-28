@@ -43,15 +43,11 @@
                 </div>
                 <div class="form-group">
                     <label>Email:</label>
-                    <input type="text" name="email" value="<?php echo (isset($_POST['email'])) ? $_POST['email'] : ''; ?>" class="form-control" placeholder="Enter email">
+                    <input type="text" name="email" value="<?php echo (isset($_POST['email'])) ? $_POST['email'] : ''; ?>" class="form-control" placeholder="Email">
                 </div>
                 <div class="form-group">
                     <label>Password:</label>
-                    <input type="password" name="password" class="form-control" placeholder="Enter Password">
-                </div>
-                <div class="form-group">
-                    <label>Suffix:</label>
-                    <input type="text" name="suffix" value="<?php echo (isset($_POST['suffix'])) ? $_POST['suffix'] : ''; ?>" class="form-control" placeholder="Suffix">
+                    <input type="password" name="password" class="form-control" placeholder="Password">
                 </div>
                 <div class="form-group">
                     <label>Company Name:</label>

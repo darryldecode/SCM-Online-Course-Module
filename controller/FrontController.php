@@ -306,7 +306,7 @@ class FrontController {
         $user->last_name = $inputs['last_name'];
         $user->email = $inputs['email'];
         $user->password = $inputs['password'];
-        $user->suffix = $inputs['suffix'];
+        $user->suffix = 'N/A';
         $user->employers_company_name = $inputs['employers_company_name'];
         $user->home_mailing_address_1 = $inputs['home_mailing_address_1'];
         $user->home_mailing_address_2 = $inputs['home_mailing_address_2'];
