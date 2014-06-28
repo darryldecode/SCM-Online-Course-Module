@@ -97,7 +97,7 @@ class PaymentController {
         // if user is not logged in let him logged in or register
         if( ! Session::isLoggedIn() )
         {
-            SCMUtility::setFlashMessage('Please login first or create an account to enroll on a course.','info');
+            SCMUtility::setFlashMessage('Please login first or create an account to enroll in a course.','info');
             SCMUtility::frontRedirectTo('?page=scmCourseModule&state=Front&action=myAccount');
             return;
         }
