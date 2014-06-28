@@ -47,23 +47,23 @@
                 </div>
                 <div class="form-group">
                     <label>Password:</label>
-                    <input type="password" name="password" class="form-control" placeholder="Enter email">
+                    <input type="password" name="password" class="form-control" placeholder="Enter Password">
                 </div>
                 <div class="form-group">
                     <label>Suffix:</label>
                     <input type="text" name="suffix" value="<?php echo (isset($_POST['suffix'])) ? $_POST['suffix'] : ''; ?>" class="form-control" placeholder="Suffix">
                 </div>
                 <div class="form-group">
-                    <label>Employers Company Name:</label>
-                    <input type="text" name="employers_company_name" value="<?php echo (isset($_POST['employers_company_name'])) ? $_POST['employers_company_name'] : ''; ?>" class="form-control" placeholder="Employers Company Name">
+                    <label>Company Name:</label>
+                    <input type="text" name="employers_company_name" value="<?php echo (isset($_POST['employers_company_name'])) ? $_POST['employers_company_name'] : ''; ?>" class="form-control" placeholder="Company Name">
                 </div>
                 <div class="form-group">
-                    <label>Home Mailing Address 1:</label>
-                    <input type="text" name="home_mailing_address_1" value="<?php echo (isset($_POST['home_mailing_address_1'])) ? $_POST['home_mailing_address_1'] : ''; ?>" class="form-control" placeholder="Home Mailing Address 1">
+                    <label>Mailing Address 1:</label>
+                    <input type="text" name="home_mailing_address_1" value="<?php echo (isset($_POST['home_mailing_address_1'])) ? $_POST['home_mailing_address_1'] : ''; ?>" class="form-control" placeholder="Mailing Address 1">
                 </div>
                 <div class="form-group">
-                    <label>Home Mailing Address 2:</label>
-                    <input type="text" name="home_mailing_address_2" value="<?php echo (isset($_POST['home_mailing_address_2'])) ? $_POST['home_mailing_address_2'] : ''; ?>" class="form-control" placeholder="Home Mailing Address 2">
+                    <label>Mailing Address 2:</label>
+                    <input type="text" name="home_mailing_address_2" value="<?php echo (isset($_POST['home_mailing_address_2'])) ? $_POST['home_mailing_address_2'] : ''; ?>" class="form-control" placeholder="Mailing Address 2">
                 </div>
                 <div class="form-group">
                     <label>City:</label>
@@ -78,8 +78,8 @@
                     <input type="text" name="zip_code" value="<?php echo (isset($_POST['zip_code'])) ? $_POST['zip_code'] : ''; ?>" class="form-control" placeholder="ZIP Code">
                 </div>
                 <div class="form-group">
-                    <label>Personal Cell Number:</label>
-                    <input type="number" name="personal_cell_number" value="<?php echo (isset($_POST['personal_cell_number'])) ? $_POST['personal_cell_number'] : ''; ?>" class="form-control" placeholder="Personal Cell Number">
+                    <label>Phone Number:</label>
+                    <input type="number" name="personal_cell_number" value="<?php echo (isset($_POST['personal_cell_number'])) ? $_POST['personal_cell_number'] : ''; ?>" class="form-control" placeholder="Phone Number">
                 </div>
                 <div class="form-group text-right">
                     <button class="btn btn-success">Register</button>
