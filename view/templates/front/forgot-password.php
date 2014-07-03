@@ -3,8 +3,8 @@
         <tr>
             <td colspan="2">
                 <div class="alert alert-info">
-                    Please enter you email address. We will send you a link so you can reset your password.
-                    Please do not close this browser during the process.
+                    Please enter your email address. We will send you a link, so you can reset your password.
+                    Please <b>DO NOT</b> close this browser during the process.
                 </div>
             </td>
         </tr>

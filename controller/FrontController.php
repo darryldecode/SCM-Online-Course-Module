@@ -180,7 +180,7 @@ class FrontController {
         $studentMailerService = new StudentMailerService();
         $studentMailerService->sendResetPasswordLink($student->email,$token,$student->id);
 
-        SCMUtility::setFlashMessage('A reset password link has been sent to your email. Open your email and follow the link to process reset password of you account. Please do not close this browser during the process.');
+        SCMUtility::setFlashMessage('A reset password link has been sent to your email. Open your email and follow the link to reset your account password. Please do not close this browser during the process.');
         SCMUtility::frontRedirectTo('?page=scmCourseModule&state=Front&action=myAccount');
         return;
     }

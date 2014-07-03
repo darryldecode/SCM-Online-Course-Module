@@ -21,7 +21,7 @@
             <td><?php echo (isset($scmData['user']['last_name'])) ? $scmData['user']['last_name'] : ''; ?></td>
         </tr>
         <tr>
-            <td>Email:</td>
+            <td>Personal Email Address:</td>
             <td><?php echo (isset($scmData['user']['email'])) ? $scmData['user']['email'] : ''; ?></td>
         </tr>
         <tr>
@@ -29,7 +29,7 @@
             <td><?php echo (isset($scmData['user']['suffix'])) ? $scmData['user']['suffix'] : ''; ?></td>
         </tr>
         <tr>
-            <td>Employers Company Name:</td>
+            <td>Employer's Company Name:</td>
             <td><?php echo (isset($scmData['user']['employers_company_name'])) ? $scmData['user']['employers_company_name'] : ''; ?></td>
         </tr>
         <tr>
