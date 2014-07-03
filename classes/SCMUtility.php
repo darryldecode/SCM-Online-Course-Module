@@ -291,7 +291,7 @@ class SCMUtility {
     public static function toReadableDateFormat($date)
     {
         $date = new \DateTime($date);
-        return $date->format('g:ia \o\n l jS F Y');
+        return $date->format('g:i a \o\n l jS F Y');
     }
 
     /**
