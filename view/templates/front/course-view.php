@@ -6,7 +6,7 @@
                 <b>COURSE INFO</b>
 
                 <div class="alert alert-info">
-                    <span class="glyphicon glyphicon-exclamation-sign"></span> <i>Note: Before you attempt to enroll in a course, you will need to have an account first. So click on the "My Account" button and fill in the registration form."</i>
+                    <i><b><span style="font-size: 15px;">NOTE:</span></b> Before you attempt to enroll in a course, you will need to have an account first. So click on the "My Account" button and fill in the registration form."</i>
                 </div>
 
                 <form method="post" action="<?php echo \SCM\Classes\SCMUtility::frontBuildURL('?page=scmCourseModule&state=Payment&action=registerOnCourse'); ?>">
