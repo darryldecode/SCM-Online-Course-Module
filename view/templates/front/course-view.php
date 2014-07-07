@@ -6,7 +6,7 @@
                 <b>COURSE INFO</b>
 
                 <div class="alert alert-info">
-                    <i><b><span style="font-size: 15px;">NOTE:</span></b> Before you attempt to enroll in a course, you will need to have an account first. So click on the "My Account" button and fill in the registration form."</i>
+                    <i><b><span style="font-size: 16px;">NOTE:</span> <span style="font-size: 14px;">You must create an account before you can enroll on a course. To create an account, click on "My Account" button above and fill in the REGISTER information.</span></b></i>
                 </div>
 
                 <form method="post" action="<?php echo \SCM\Classes\SCMUtility::frontBuildURL('?page=scmCourseModule&state=Payment&action=registerOnCourse'); ?>">
