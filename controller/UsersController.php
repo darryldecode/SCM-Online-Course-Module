@@ -94,12 +94,7 @@ class UsersController {
         $inputs = array();
         foreach($_POST as $k => $v)
         {
-            if($k == 'email') // don't strip email
-            {
-                $inputs[$k] = $v;
-            } else {
-                $inputs[$k] = SCMUtility::cleanText($v);
-            }
+            $inputs[$k] = SCMUtility::stripTags($v);
         }
 
         // validate Course info
@@ -177,12 +172,7 @@ class UsersController {
         $inputs = array();
         foreach($_POST as $k => $v)
         {
-            if($k == 'email') // don't strip email
-            {
-                $inputs[$k] = $v;
-            } else {
-                $inputs[$k] = SCMUtility::cleanText($v);
-            }
+            $inputs[$k] = SCMUtility::stripTags($v);
         }
 
         // validate Course info
