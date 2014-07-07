@@ -42,7 +42,11 @@
                     <input type="text" name="last_name" value="<?php echo (isset($_POST['last_name'])) ? $_POST['last_name'] : ''; ?>" class="form-control" placeholder="Last Name">
                 </div>
                 <div class="form-group">
-                    <label>Email:</label>
+                    <label>Suffix:</label>
+                    <input type="text" name="suffix" value="<?php echo (isset($_POST['suffix'])) ? $_POST['suffix'] : ''; ?>" class="form-control" placeholder="i.e. Jr, Sr, II, etc..">
+                </div>
+                <div class="form-group">
+                    <label>Personal Email Address:</label>
                     <input type="text" name="email" value="<?php echo (isset($_POST['email'])) ? $_POST['email'] : ''; ?>" class="form-control" placeholder="Email">
                 </div>
                 <div class="form-group">
@@ -54,12 +58,12 @@
                     <input type="text" name="employers_company_name" value="<?php echo (isset($_POST['employers_company_name'])) ? $_POST['employers_company_name'] : ''; ?>" class="form-control" placeholder="Company Name">
                 </div>
                 <div class="form-group">
-                    <label>Mailing Address 1:</label>
-                    <input type="text" name="home_mailing_address_1" value="<?php echo (isset($_POST['home_mailing_address_1'])) ? $_POST['home_mailing_address_1'] : ''; ?>" class="form-control" placeholder="Mailing Address 1">
+                    <label>Home Mailing Address 1:</label>
+                    <input type="text" name="home_mailing_address_1" value="<?php echo (isset($_POST['home_mailing_address_1'])) ? $_POST['home_mailing_address_1'] : ''; ?>" class="form-control" placeholder="Home Mailing Address 1">
                 </div>
                 <div class="form-group">
-                    <label>Mailing Address 2:</label>
-                    <input type="text" name="home_mailing_address_2" value="<?php echo (isset($_POST['home_mailing_address_2'])) ? $_POST['home_mailing_address_2'] : ''; ?>" class="form-control" placeholder="Mailing Address 2">
+                    <label>Home Mailing Address 2:</label>
+                    <input type="text" name="home_mailing_address_2" value="<?php echo (isset($_POST['home_mailing_address_2'])) ? $_POST['home_mailing_address_2'] : ''; ?>" class="form-control" placeholder="Home Mailing Address 2">
                 </div>
                 <div class="form-group">
                     <label>City:</label>
@@ -74,7 +78,7 @@
                     <input type="text" name="zip_code" value="<?php echo (isset($_POST['zip_code'])) ? $_POST['zip_code'] : ''; ?>" class="form-control" placeholder="ZIP Code">
                 </div>
                 <div class="form-group">
-                    <label>Phone Number:</label>
+                    <label>Personal Cell Number:</label>
                     <input type="number" name="personal_cell_number" value="<?php echo (isset($_POST['personal_cell_number'])) ? $_POST['personal_cell_number'] : ''; ?>" class="form-control" placeholder="Phone Number">
                 </div>
                 <div class="form-group text-right">

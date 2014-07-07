@@ -19,7 +19,7 @@
                 <td><input type="text" name="last_name" value="<?php echo (isset($scmData['data']['last_name'])) ? $scmData['data']['last_name'] : ''; ?>"></td>
             </tr>
             <tr>
-                <td>Email:</td>
+                <td>Personal Email Address:</td>
                 <td><input type="email" name="email" value="<?php echo (isset($scmData['data']['email'])) ? $scmData['data']['email'] : ''; ?>"></td>
             </tr>
             <tr>
