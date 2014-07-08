@@ -11,12 +11,16 @@
                 <td><input type="text" name="first_name" value="<?php echo (isset($_POST['first_name'])) ? $_POST['first_name'] : ''; ?>"></td>
             </tr>
             <tr>
-                <td>Middle Name:</td>
+                <td>Middle Initial:</td>
                 <td><input type="text" name="middle_name" value="<?php echo (isset($_POST['middle_name'])) ? $_POST['middle_name'] : ''; ?>"></td>
             </tr>
             <tr>
                 <td>Last Name:</td>
                 <td><input type="text" name="last_name" value="<?php echo (isset($_POST['last_name'])) ? $_POST['last_name'] : ''; ?>"></td>
+            </tr>
+            <tr>
+                <td>Suffix:</td>
+                <td><input type="text" name="suffix" value="<?php echo (isset($_POST['suffix'])) ? $_POST['suffix'] : ''; ?>" placeholder="i.e. Jr, Sr, II, etc.."></td>
             </tr>
             <tr>
                 <td>Email:</td>
@@ -27,11 +31,7 @@
                 <td><input type="password" name="password" value=""></td>
             </tr>
             <tr>
-                <td>Suffix:</td>
-                <td><input type="text" name="suffix" value="<?php echo (isset($_POST['suffix'])) ? $_POST['suffix'] : ''; ?>"></td>
-            </tr>
-            <tr>
-                <td>Employers Company Name:</td>
+                <td>Employer's Company Name:</td>
                 <td><input type="text" name="employers_company_name" value="<?php echo (isset($_POST['employers_company_name'])) ? $_POST['employers_company_name'] : ''; ?>"></td>
             </tr>
             <tr>

@@ -54,7 +54,7 @@
                     <input type="password" name="password" class="form-control" placeholder="Password">
                 </div>
                 <div class="form-group">
-                    <label>Company Name:</label>
+                    <label>Employer's Company Name:</label>
                     <input type="text" name="employers_company_name" value="<?php echo (isset($_POST['employers_company_name'])) ? $_POST['employers_company_name'] : ''; ?>" class="form-control" placeholder="Company Name">
                 </div>
                 <div class="form-group">
