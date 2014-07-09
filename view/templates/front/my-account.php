@@ -13,7 +13,7 @@
             <td><?php echo (isset($scmData['user']['first_name'])) ? $scmData['user']['first_name'] : ''; ?></td>
         </tr>
         <tr>
-            <td>Middle Name:</td>
+            <td>Middle Initial:</td>
             <td><?php echo (isset($scmData['user']['middle_name'])) ? $scmData['user']['middle_name'] : ''; ?></td>
         </tr>
         <tr>
@@ -21,12 +21,12 @@
             <td><?php echo (isset($scmData['user']['last_name'])) ? $scmData['user']['last_name'] : ''; ?></td>
         </tr>
         <tr>
-            <td>Personal Email Address:</td>
-            <td><?php echo (isset($scmData['user']['email'])) ? $scmData['user']['email'] : ''; ?></td>
-        </tr>
-        <tr>
             <td>Suffix:</td>
             <td><?php echo (isset($scmData['user']['suffix'])) ? $scmData['user']['suffix'] : ''; ?></td>
+        </tr>
+        <tr>
+            <td>Personal Email Address:</td>
+            <td><?php echo (isset($scmData['user']['email'])) ? $scmData['user']['email'] : ''; ?></td>
         </tr>
         <tr>
             <td>Employer's Company Name:</td>
