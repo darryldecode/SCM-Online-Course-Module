@@ -186,6 +186,14 @@ class CourseController {
 
         // update Course
         $course = Course::find($inputs['courseID']);
+
+        if( ! $course)
+        {
+            SCMUtility::setFlashMessage('Resource specified does not exist!');
+            View::make('templates/system/error.php');
+            return;
+        }
+
         $course->name = $inputs['name'];
         $course->description = $inputs['description'];
         $course->location = $inputs['location'];
