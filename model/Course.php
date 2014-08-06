@@ -51,7 +51,7 @@ class Course extends SCMModel {
 
     public function isFree()
     {
-        if( $this->premium==1 ) return false;
+        if( $this->premium == 1 ) return false;
         return true;
     }
 
